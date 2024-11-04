@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What's New</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h2 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        div.gallery {
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            overflow: hidden;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        div.gallery:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        div.gallery img {
+            width: 100%;
+            height: auto;
+            transition: transform 0.5s ease;
+        }
+
+        div.gallery img:hover {
+            transform: scale(1.1);
+        }
+
+        div.desc {
+            padding: 15px;
+            text-align: center;
+            background-color: #fff;
+            font-weight: bold;
+            color: #444;
+            transition: background-color 0.3s ease;
+        }
+
+        div.desc:hover {
+            background-color: #f0f0f0;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .responsive {
+            padding: 0 6px;
+            float: left;
+            width: 24.99999%;
+            margin-bottom: 12px;
+            transition: transform 0.3s ease;
+        }
+
+        .responsive:hover {
+            transform: translateY(-5px);
+        }
+
+        @media only screen and (max-width: 700px) {
+            .responsive {
+                width: 49.99999%;
+                margin: 6px 0;
+            }
+        }
+
+        @media only screen and (max-width: 500px) {
+            .responsive {
+                width: 100%;
+            }
+        }
+
+        .clearfix:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        .info {
+            text-align: center;
+            margin-top: 20px;
+            color: #666;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+
+<h2>New Items Introduced</h2>
+
+
+<div class="responsive">
+    <div class="gallery">
+        <a target="_blank" href="images\img1.png">
+            <img src="images\img1.png" alt="Northern Lights">
+        </a>
+        <div class="desc">Iced Double Mocha Latte</div>
+    </div>
+</div>
+
+<div class="responsive">
+    <div class="gallery">
+        <a target="_blank" href="images\img2.png">
+            <img src="images\img2.png" alt="Northern Lights">
+        </a>
+        <div class="desc">Irish Cream Cold Brew</div>
+    </div>
+</div>
+
+<div class="responsive">
+    <div class="gallery">
+        <a target="_blank" href="images\img3.png">
+            <img src="images\img3.png" alt="Northern Lights">
+        </a>
+        <div class="desc">Pumpkin Spice Latte</div>
+    </div>
+</div>
+
+<div class="responsive">
+    <div class="gallery">
+        <a target="_blank" href="images/new3.jpeg">
+            <img src="images/new3.jpeg" alt="Northern Lights">
+        </a>
+        <div class="desc">Double Mocha Latte</div>
+    </div>
+</div>
+
+<div class="responsive">
+    <div class="gallery">
+        <a target="_blank" href="images/new3.jpeg">
+            <img src="images/new3.jpeg" alt="Northern Lights">
+        </a>
+        <div class="desc">Double Mocha Latte</div>
+    </div>
+</div>
+
+<div class="clearfix"></div>
+
+<div class="info">
+    <p>Fall in love with Starbucks Rewards member perks, like a free drink with qualifying purchase during your first week. Valid for one-time use.*</p>
+    <p>Ripe for the sippin’, enjoy the new Iced Apple Crisp Nondairy Cream Chai, beloved Apple Crisp Oatmilk Macchiato or Apple Crisp Oatmilk Shaken Espresso.</p>
+</div>
+
+</body>
+</html>
